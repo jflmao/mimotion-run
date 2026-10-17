@@ -294,7 +294,7 @@ class MiMotion():
             error_traceback = traceback.format_exc()
             print(error_traceback)
             msg = f"【异常】账号 {user[:4]}****{user[-4:]} 提交失败：{e}\n"
-    
+        msg = msg + "\nBy:https://github.com/jflmao/mimotion-run"
         print(msg)
         return msg
 
