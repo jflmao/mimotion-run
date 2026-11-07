@@ -1,4 +1,4 @@
-name: keepalive
+name: 保活工作流
 on:
   schedule:
     - cron: '17 4 * * 1'        # 每周一 04:17 UTC，留足余量
