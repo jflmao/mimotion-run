@@ -1,7 +1,7 @@
 name: 保活工作流
 on:
   schedule:
-    - cron: '17 4 * * 1'        # 每周一 04:17 UTC，留足余量
+    - cron: '22 9 * * 1,2,3,4,5'        # 每周一 04:17 UTC，留足余量
   workflow_dispatch:
 permissions:
   contents: write               # push 必需
